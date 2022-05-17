@@ -53,9 +53,10 @@ if ( have_posts() )  :
 			// Output comments wrapper if comments are open, or if there's a comment number – and check for password
 			if ( ( comments_open() || get_comments_number() ) && ! post_password_required() ) : ?>
 			
-				<div class="section-inner thin">
+			<div class="section-inner thin">
 					<?php comments_template(); ?>
-				</div><!-- .section-inner -->
+				</div>
+				<!-- .section-inner -->
 			
 			<?php endif; ?>
 
