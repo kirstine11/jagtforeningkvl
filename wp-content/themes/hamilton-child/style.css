@@ -11,3 +11,28 @@ Updated: 2022-05-17 12:42:46
 
 */
 
+/* Overskrifter fjernet */
+.title{
+    display: none;
+}
+
+/*  BLIV MEDLEM */
+/* SKAL EVT TILØJES TIL HELE SITE */
+.page-id-17 .section-inner .thin{
+    max-width: 1240px;
+}
+
+.page-id-17 .entry-content .alignfull{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.page-id-17 .wp-block-separator{
+    border-top: 2px solid;
+    width: 20vw;
+}
+
+.page-id-17 .wp-block-group__inner-container{
+    background:#37351A;
+}
+
