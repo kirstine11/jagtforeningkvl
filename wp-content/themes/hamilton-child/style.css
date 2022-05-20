@@ -11,33 +11,73 @@ Updated: 2022-05-17 12:42:46
 
 */
 
-
 /* Overskrifter fjernet */
-.title{
-    display: none;
+.title {
+  display: none;
 }
 
 /* navigation  */
-.wp-custom-logo .site-header{
-    padding: 12px 0;
+.wp-custom-logo .site-header {
+  padding: 12px 0;
 }
 
 /*  BLIV MEDLEM */
 /* SKAL EVT TILØJES TIL HELE SITE */
-.page-id-17 .section-inner .thin{
-    max-width: 1240px;
+.page-id-17 .section-inner .thin {
+  max-width: 1240px;
 }
 
-.page-id-17 .entry-content .alignfull{
-    margin-top: 0px;
-    margin-bottom: 0px;
+.page-id-17 .entry-content .alignfull {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.page-id-17 .wp-block-separator{
-    border-top: 2px solid;
-    width: 20vw;
+.page-id-17 .wp-block-separator {
+  border-top: 2px solid;
+  width: 20vw;
 }
 
+/* ARRANGEMENTER */
+/* KONTAKTFORMULAR */
 
+.page-id-200 .wp-block-jetpack-contact-form #g200-navn.name {
+  border-radius: 9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #707070;
+  background-color: white;
+}
 
+.page-id-200 .wp-block-jetpack-contact-form .grunion-field-label.name {
+  color: #000000;
+  opacity: 40%;
+  font-weight: 400;
+}
 
+.page-id-200 .wp-block-jetpack-contact-form #g200-email.email {
+  border-radius: 9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #707070;
+  background-color: white;
+}
+
+.page-id-200 .wp-block-jetpack-contact-form .grunion-field-label.email {
+  color: #000000;
+  opacity: 40%;
+  font-weight: 400;
+}
+
+.page-id-200 .wp-block-jetpack-contact-form #g200-telefonnummer.telephone {
+  border-radius: 9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #707070;
+  background-color: white;
+}
+
+.page-id-200 .wp-block-jetpack-contact-form .grunion-field-label.telephone {
+  color: #000000;
+  opacity: 40%;
+  font-weight: 400;
+}
