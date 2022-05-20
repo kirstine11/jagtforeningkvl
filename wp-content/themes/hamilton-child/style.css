@@ -68,6 +68,10 @@ p {
 }
 
 /* ARRANGEMENTER */
+
+.page-id-200 #site-content {
+  background-color: #fafaf7;
+}
 /* KONTAKTFORMULAR */
 
 .page-id-200 .wp-block-jetpack-contact-form #g200-navn.name {
@@ -111,6 +115,10 @@ p {
   opacity: 40%;
   font-weight: 400;
 }
+
+/* .page-id-200 .wp-image-281 {
+  margin: -100px;
+} */
 
 /* FORSIDE  */
 
