@@ -21,6 +21,10 @@ Updated: 2022-05-17 12:42:46
   padding: 12px 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*  BLIV MEDLEM */
 /* SKAL EVT TILØJES TIL HELE SITE */
 .page-id-17 .section-inner .thin {
