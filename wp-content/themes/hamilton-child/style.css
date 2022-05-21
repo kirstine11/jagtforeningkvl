@@ -67,6 +67,32 @@ p {
   width: 20vw;
 }
 
+/* KURSUS */
+
+.page-id-52 .nyhed {
+  border: #fcae3f solid 3px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.page-id-52 .nyhed-tekst {
+  margin: 0;
+}
+
+/* PRAMJAGTSKURSUS  */
+.page-id-356 .entry-content .alignfull {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.page-id-356 .wp-block-separator {
+  width: 30vw;
+}
+
+.page-id-356 .entry-content .alignfull {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 /* ARRANGEMENTER */
 
 .page-id-200 #site-content {
