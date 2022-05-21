@@ -125,3 +125,8 @@ p {
 .page-id-138 {
   background-image: url("https://kirstinekrogs.dk/jagtforeningkvl/wp-content/uploads/2022/05/pexels-zlatin-georgiev-5608093.mp4");
 }
+
+.page-id-138 .entry-content .alignfull {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
