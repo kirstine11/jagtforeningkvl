@@ -240,3 +240,9 @@ a.skip-link.button {
 .page-id-522 #site-content {
   background-color: #fafaf7;
 }
+
+.page-id-522 .wp-block-column .wp-block-image.size-full {
+  box-shadow: 2px 2px 5px 5px #88888871;
+  text-align: center;
+  width: 120%;
+}
