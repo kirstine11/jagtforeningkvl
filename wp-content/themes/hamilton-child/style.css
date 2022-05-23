@@ -241,8 +241,28 @@ a.skip-link.button {
   background-color: #fafaf7;
 }
 
-.page-id-522 .wp-block-column .wp-block-image.size-full {
+.page-id-522
+  .wp-block-column
+  .wp-block-image.boks1
+  .aligncenter.size-full.is-resized {
   box-shadow: 2px 2px 5px 5px #88888871;
   text-align: center;
-  width: 120%;
+}
+
+.page-id-522 .wp-block-column .aligncenter.size-full {
+  box-shadow: 2px 2px 5px 5px #88888871;
+  text-align: center;
+  padding-bottom: 9px;
+}
+
+.page-id-522 .wp-block-image.size-full {
+  box-shadow: 2px 2px 5px 5px #88888871;
+  text-align: center;
+  padding-bottom: 9px;
+}
+
+.page-id-522 .wp-block-image.size-full.billede1 {
+  box-shadow: none;
+  text-align: center;
+  padding-bottom: 0px;
 }
