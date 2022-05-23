@@ -292,6 +292,55 @@ a.skip-link.button {
   padding-right: 20px;
 }
 
+/* Kontakt os */
+
+.page-id-1101 #site-content {
+  background-color: #fafaf7;
+}
+
+/* KONTAKTFORMULAR */
+
+.page-id-1101 .name.grunion-field-width-75 {
+  border-radius: 9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #707070;
+  background-color: white;
+}
+
+.page-id-1101 .grunion-field-label.name {
+  color: #000000;
+  opacity: 40%;
+  font-weight: 400;
+}
+
+.page-id-1101 .email.grunion-field-width-75 {
+  border-radius: 9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #707070;
+  background-color: white;
+}
+
+.page-id-1101 .grunion-field-label.email {
+  color: #000000;
+  opacity: 40%;
+  font-weight: 400;
+}
+
+.page-id-1101 .textarea.grunion-field-width-75 {
+  border-radius: 9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #707070;
+  background-color: white;
+}
+
+.page-id-1101 .grunion-field-label.textarea {
+  color: #000000;
+  opacity: 40%;
+  font-weight: 400;
+}
 @media only screen and (min-width: 600px) {
   .page-id-356
     .wp-block-buttons
