@@ -264,6 +264,11 @@ a.skip-link.button {
   display: none;
 }
 
+/* Arrangementer */
+.page-id-200 .wp-block-column {
+  padding: 9px 90px 9px 30px;
+}
+
 /* Om os */
 .page-id-522 #site-content {
   background-color: #fafaf7;
@@ -305,7 +310,7 @@ a.skip-link.button {
   padding-right: 20px;
 }
 
-/* Kontakt os */
+/* Kontakt */
 
 .page-id-1101 #site-content {
   background-color: #fafaf7;
@@ -315,10 +320,9 @@ a.skip-link.button {
 
 .page-id-1101 .name.grunion-field-width-75 {
   border-radius: 9px;
-  border-width: 1px;
   border-style: solid;
-  border-color: #707070;
   background-color: white;
+  box-shadow: 1px 1px 4px 4px #88888836;
 }
 
 .page-id-1101 .grunion-field-label.name {
@@ -329,10 +333,9 @@ a.skip-link.button {
 
 .page-id-1101 .email.grunion-field-width-75 {
   border-radius: 9px;
-  border-width: 1px;
   border-style: solid;
-  border-color: #707070;
   background-color: white;
+  box-shadow: 1px 1px 4px 4px #88888836;
 }
 
 .page-id-1101 .grunion-field-label.email {
@@ -343,10 +346,9 @@ a.skip-link.button {
 
 .page-id-1101 .textarea.grunion-field-width-75 {
   border-radius: 9px;
-  border-width: 1px;
   border-style: solid;
-  border-color: #707070;
   background-color: white;
+  box-shadow: 1px 1px 4px 4px #88888836;
 }
 
 .page-id-1101 .grunion-field-label.textarea {
