@@ -111,6 +111,10 @@ p {
 .page-id-200 #site-content {
   background-color: #fafaf7;
 }
+
+/* .page-id-200 .wp-block-columns.alignwide {
+  padding: 80px;
+} */
 /* KONTAKTFORMULAR */
 
 .page-id-200 .wp-block-jetpack-contact-form #g200-navn.name {
@@ -263,8 +267,6 @@ a.skip-link.button {
 .single-product .related .products {
   display: none;
 }
-
-/* Arrangementer */
 
 /* Om os */
 .page-id-522 #site-content {
