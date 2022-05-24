@@ -34,6 +34,14 @@ a {
   font-weight: 500;
 }
 
+/* streg */
+.wp-block-separator {
+  position: relative;
+  bottom: 70px;
+  border-top: 2px solid;
+  width: 20vw;
+}
+
 /* fonts */
 
 h1 {
@@ -60,11 +68,6 @@ p {
 .page-id-17 .entry-content .alignfull {
   margin-top: 0px;
   margin-bottom: 0px;
-}
-
-.page-id-17 .wp-block-separator {
-  border-top: 2px solid;
-  width: 20vw;
 }
 
 /* KURSUS */
