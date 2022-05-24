@@ -53,8 +53,13 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
+
+h4 {
+  font-size: 1.1rem;
+}
+
 p {
   font-size: 1rem;
 }
@@ -82,19 +87,24 @@ p {
   margin: 0;
 }
 
+.page-id-52
+  a.wp-block-button__link.has-black-color.has-text-color.has-background {
+  width: 200px;
+}
+
 /* PRAMJAGTSKURSUS  */
 .page-id-356 .entry-content .alignfull {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.page-id-356 .wp-block-separator {
+/* .page-id-356 .wp-block-separator {
   width: 30vw;
-}
+} */
 
-.page-id-356 .entry-content .alignfull {
+/* .page-id-356 .entry-content .alignfull {
   margin-top: 0px;
   margin-bottom: 0px;
-}
+} */
 
 /* ARRANGEMENTER */
 
@@ -345,11 +355,12 @@ a.skip-link.button {
   font-weight: 400;
 }
 @media only screen and (min-width: 600px) {
+  /* knap gjort */
   .page-id-356
     .wp-block-buttons
     > .wp-block-button.has-custom-width
     .wp-block-button__link {
-    width: 60%;
+    width: 45%;
   }
 
   .single-product #pa_vaelg {
