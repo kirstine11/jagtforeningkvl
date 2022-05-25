@@ -29,9 +29,17 @@ a {
   color: white;
 }
 
+.menu-item a:hover {
+  color: #bfbda7;
+}
+
 /* knapper */
 .wp-block-button__link {
   font-weight: 500;
+}
+
+.wp-block-button__link:hover {
+  background-color: #f5ba65;
 }
 
 /* streg */
@@ -173,6 +181,93 @@ p {
 .page-id-138 .entry-content .alignfull {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.page-id-138 .kursus .wp-block-column {
+  padding: 0;
+}
+.page-id-138 .wp-block-column.is-vertically-aligned-center.has-background {
+  height: 580px;
+}
+
+.page-id-138 .kursusknap {
+  position: relative;
+  bottom: 45px;
+}
+
+.page-id-138
+  .wp-block-buttons
+  > .wp-block-button.has-custom-width
+  .wp-block-button__link {
+  width: 45%;
+}
+
+.page-id-138
+  .kursus
+  a.wp-block-button__link.has-black-color.has-text-color.has-background {
+  width: 200px;
+}
+
+.page-id-138
+  .arrangementerknap
+  a.wp-block-button__link.has-black-color.has-text-color.has-background {
+  width: 250px;
+}
+
+.page-id-138 .omosknap {
+  position: relative;
+  top: 60px;
+  right: 400px;
+}
+
+.page-id-138 .citater {
+  bottom: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.page-id-138 .USP img {
+  position: relative;
+  top: 40px;
+}
+
+.page-id-138 .mc4wp-form-fields {
+  display: flex;
+}
+
+.page-id-138 .form button,
+.button,
+.faux-button,
+.wp-block-button__link,
+.wp-block-file .wp-block-file__button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border-radius: 50px;
+  background-color: #fcae3f;
+  color: black;
+  padding: 14px 50px 14px 50px;
+  position: relative;
+  left: 10px;
+  font-weight: 400;
+}
+
+.page-id-138 input[type="email"] {
+  border-radius: 50px;
+}
+
+.page-id-138 .wp-block-column.is-vertically-aligned-top.skovenkalder {
+  position: relative;
+  bottom: 150px;
+}
+
+.page-id-138 .wp-container-6.wp-block-buttons {
+  display: none;
+}
+
+.page-id-138 .wp-block-cb-carousel .slick-next:before,
+.wp-block-cb-carousel .slick-prev:before {
+  color: white;
 }
 
 /* SINGLE PRODUKT */
@@ -376,5 +471,27 @@ a.skip-link.button {
   .single-product .woocommerce .quantity .qty {
     height: 4vw;
     width: 10vw;
+  }
+
+  .page-id-138 .kursus {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .page-id-138 .mereendjagt {
+    padding-left: 180px;
+  }
+
+  .page-id-138 .bestyrelse {
+    padding-left: 120px;
+  }
+
+  .page-id-138 .bestyrelse p {
+    padding-right: 300px;
+  }
+
+  .page-id-138 .citater {
+    padding-right: 40px;
+    padding-left: 40px;
   }
 }
