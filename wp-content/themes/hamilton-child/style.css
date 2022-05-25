@@ -455,19 +455,28 @@ a.skip-link.button {
   background-color: #fafaf7;
 }
 
-/* KONTAKTFORMULAR */
+.page-id-1101 .wp-container-3.wp-block-column {
+  margin-bottom: -175px;
+}
 
+/* KONTAKTFORMULAR */
+.page-id-1101 .wp-block-jetpack-contact-form {
+  justify-content: center;
+  text-align: center;
+}
 .page-id-1101 .name.grunion-field-width-75 {
   border-radius: 9px;
   border-style: solid;
   background-color: white;
   box-shadow: 1px 1px 4px 4px #88888836;
+  text-align: left;
 }
 
 .page-id-1101 .grunion-field-label.name {
   color: #000000;
   opacity: 40%;
   font-weight: 400;
+  text-align: left;
 }
 
 .page-id-1101 .email.grunion-field-width-75 {
@@ -481,6 +490,7 @@ a.skip-link.button {
   color: #000000;
   opacity: 40%;
   font-weight: 400;
+  text-align: left;
 }
 
 .page-id-1101 .textarea.grunion-field-width-75 {
@@ -494,6 +504,7 @@ a.skip-link.button {
   color: #000000;
   opacity: 40%;
   font-weight: 400;
+  text-align: left;
 }
 @media only screen and (min-width: 600px) {
   /* knap gjort */
@@ -548,5 +559,13 @@ a.skip-link.button {
 
   .site-header .custom-logo img {
     width: 25rem;
+  }
+
+  .page-id-1101 .wp-container-3.wp-block-column {
+    margin-bottom: -175px;
+  }
+  .page-id-1101 .wp-block-jetpack-contact-form {
+    justify-content: left;
+    text-align: left;
   }
 }
