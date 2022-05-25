@@ -18,7 +18,7 @@ Updated: 2022-05-17 12:42:46
 
 /* navigation  */
 .wp-custom-logo .site-header {
-  padding: 12px 0;
+  padding: 35px 0;
   margin-left: 30px;
   margin-right: 30px;
   align-items: center;
@@ -382,6 +382,11 @@ a.skip-link.button {
 }
 
 /* Om os */
+
+.page-id-522 .entry-content .alignfull {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .page-id-522 #site-content {
   background-color: #fafaf7;
 }
