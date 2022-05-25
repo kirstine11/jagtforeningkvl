@@ -120,6 +120,29 @@ p {
   background-color: #fafaf7;
 }
 
+.page-id-200 .aligncenter.size-full.is-resized {
+  background-color: #37351a;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 3em;
+}
+
+.page-id-200 .wp-block-columns.alignwide.boks2 {
+  position: relative;
+  bottom: 100px;
+}
+
+.page-id-200 p.has-text-align-center.brodtekst {
+  position: relative;
+  bottom: 90px;
+}
+
+.page-id-200 .wp-container-8.wp-block-column {
+  margin: -25px;
+}
+
 /* .page-id-200 .wp-block-columns.alignwide {
   padding: 80px;
 } */
