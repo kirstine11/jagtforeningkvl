@@ -214,12 +214,6 @@ p {
   width: 250px;
 }
 
-.page-id-138 .omosknap {
-  position: relative;
-  top: 60px;
-  right: 400px;
-}
-
 .page-id-138 .citater {
   bottom: 70px;
   padding-left: 50px;
@@ -254,15 +248,16 @@ input[type="submit"] {
 
 .page-id-138 input[type="email"] {
   border-radius: 50px;
+  border: 1px solid black;
+  color: black;
+}
+.page-id-138 input[type="email"] p {
+  color: black;
 }
 
 .page-id-138 .wp-block-column.is-vertically-aligned-top.skovenkalder {
   position: relative;
   bottom: 150px;
-}
-
-.page-id-138 .wp-container-6.wp-block-buttons {
-  display: none;
 }
 
 .page-id-138 .wp-block-cb-carousel .slick-next:before,
@@ -493,5 +488,11 @@ a.skip-link.button {
   .page-id-138 .citater {
     padding-right: 40px;
     padding-left: 40px;
+  }
+
+  .page-id-138 .omosknap {
+    position: relative;
+    top: 60px;
+    right: 400px;
   }
 }
