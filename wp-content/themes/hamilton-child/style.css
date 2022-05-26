@@ -91,6 +91,59 @@ p {
   font-size: 1rem;
 }
 
+/* SoMe triggers */
+.Share {
+  position: fixed;
+  bottom: 250px;
+  right: 10px;
+}
+.ShareIcon {
+  margin-left: 15px;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.Share a {
+  display: block;
+}
+
+.socialLinks ul li {
+  list-style-type: none;
+}
+
+a.social-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+  line-height: 70px;
+  margin: 4px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  overflow: hidden;
+  padding: 0px;
+}
+
+a.social-button:hover {
+  text-decoration: none;
+}
+
+a.social-button.instagram-button {
+  background-color: #fcae3f;
+}
+
+a.social-button.instagram-button:hover {
+  background-color: #d79941;
+}
+
+a.social-button.facebook-button {
+  background-color: #fcae3f;
+}
+
+a.social-button.facebook-button:hover {
+  background-color: #d79941;
+}
+
 /*  BLIV MEDLEM */
 /* SKAL EVT TILØJES TIL HELE SITE */
 .page-id-17 .section-inner .thin {
@@ -160,61 +213,6 @@ p {
 
 .page-id-200 .wp-container-8.wp-block-column {
   margin: -25px;
-}
-
-.page-id-200 .Share {
-  position: fixed;
-  bottom: 250px;
-  right: 10px;
-}
-.page-id-200 .ShareIcon {
-  margin-left: 15px;
-  vertical-align: middle;
-  line-height: 30px;
-}
-.page-id-200 .Share a {
-  display: block;
-}
-/* .socialLinks ul {
-  margin: 0;
-  padding: 0;
-} */
-.page-id-200 .socialLinks ul li {
-  list-style-type: none;
-}
-
-.page-id-200 a.social-button {
-  width: 70px;
-  height: 70px;
-  border-radius: 60px;
-  line-height: 70px;
-  margin: 4px;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  color: black;
-  overflow: hidden;
-  padding: 0px;
-}
-
-.page-id-200 a.social-button:hover {
-  text-decoration: none;
-}
-
-.page-id-200 a.social-button.instagram-button {
-  background-color: #fcae3f;
-}
-
-.page-id-200 a.social-button.instagram-button:hover {
-  background-color: #d79941;
-}
-
-.page-id-200 a.social-button.facebook-button {
-  background-color: #fcae3f;
-}
-
-.page-id-200 a.social-button.facebook-button:hover {
-  background-color: #d79941;
 }
 
 /* .page-id-200 .wp-block-columns.alignwide {
