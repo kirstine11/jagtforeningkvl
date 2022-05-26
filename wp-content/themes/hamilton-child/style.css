@@ -577,15 +577,20 @@ a.skip-link.button {
     padding-right: 300px;
   }
 
-  .page-id-138 .citater {
-    padding-right: 40px;
-    padding-left: 40px;
+  .page-id-138 .wp-block-cb-carousel .slick-slide {
+    padding-left: 7.5px;
+    padding-right: 70px;
   }
 
   .page-id-138 .omosknap {
     position: relative;
-    top: 60px;
+    top: 120px;
     right: 400px;
+  }
+
+  .page-id-138 .entry-content .aligncenter {
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .site-header .custom-logo img {
@@ -630,5 +635,14 @@ a.skip-link.button {
 
   footer.site-footer.section-inner h4 {
     font-size: 1.3rem;
+  }
+
+  .page-id-138 .kursusknap {
+    bottom: 0;
+  }
+
+  .page-id-138 .socialemedietekst {
+    padding-right: 5x;
+    padding-left: 5px;
   }
 }
