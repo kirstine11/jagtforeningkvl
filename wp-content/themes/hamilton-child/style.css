@@ -273,6 +273,10 @@ a.social-button.facebook-button:hover {
   margin: 0;
 }
 
+.page-id-138 h1.has-white-color.has-text-color {
+  font-size: 3rem;
+}
+
 .page-id-138 .entry-content .alignfull {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -641,6 +645,10 @@ a.skip-link.button {
   .page-id-138 .entry-content .aligncenter {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .page-id-138 h1.has-white-color.has-text-color {
+    font-size: 4.5rem;
   }
 
   .site-header .custom-logo img {
