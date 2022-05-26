@@ -96,6 +96,7 @@ p {
   position: fixed;
   bottom: 250px;
   right: 10px;
+  z-index: 100;
 }
 .ShareIcon {
   margin-left: 15px;
@@ -170,6 +171,26 @@ a.social-button.facebook-button:hover {
 .page-id-52
   a.wp-block-button__link.has-black-color.has-text-color.has-background {
   width: 200px;
+}
+
+.page-id-52 .entry-content .alignfull {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 13px;
+}
+
+.page-id-52
+  .wp-block-buttons:not(.is-content-justification-space-between
+    .is-content-justification-right
+    .is-content-justification-left
+    .is-content-justification-center)
+  .wp-block-button.aligncenter {
+  margin: -9px;
+}
+
+.page-id-52 .entry-content .alignwide {
+  margin-top: 0;
+  padding: 0;
 }
 
 /* PRAMJAGTSKURSUS  */
@@ -377,6 +398,10 @@ input[type="submit"] {
 .page-id-138 .wp-block-cb-carousel .slick-next:before,
 .wp-block-cb-carousel .slick-prev:before {
   color: white;
+}
+
+.page-id-138 .usp-h2 {
+  font-family: "poppins";
 }
 
 /* SINGLE PRODUKT */
