@@ -5,26 +5,35 @@
 			<div class="row">
     
 <div class="column">
-<h3>KONTAKT</h3>
-<p> Jagtforeningen KVL
-Bestyrelsen@jagtkvl.dk</p>
+<h4>KONTAKT</h4>
+<p> Jagtforeningen KVL</p>
+<p>Bestyrelsen@jagtkvl.dk</p>
 </div>
 
 <div class="column">
-<h3>FIND OS</h3>
-<p>Dyrlægevej 7
-1870 Frederiksberg 
-	</p>
-<a href="https://kirstinekrogs.dk/kea/Dinplanteven/cookie-policy-eu/"><p>Cookiepolitik</p></a>
+<h4>FIND OS</h4>
+<p>Dyrlægevej 7</p>
+	<p>1870 Frederiksberg</p>
 </div>
 
-<div class="social">
-<a href="https://www.facebook.com/Dinplantevenmmddk-106563078469156" class="facebook"><img src="https://kirstinekrogs.dk/kea/Dinplanteven/wp-content/uploads/2021/12/fb.svg" alt="fb ikon"></a>
-<a href="https://www.instagram.com/dinplantevenmmd.dk/" class="instagram"><img src="https://kirstinekrogs.dk/kea/Dinplanteven/wp-content/uploads/2021/12/Instagram.svg" alt="insta ikon"></a>
+<div class="column">
+<h4>INFORMATION</h4><a href="https://kirstinekrogs.dk/jagtforeningkvl/privatlivspolitik/"><p>Privatlivspolitik</p></a>
+<a href="https://kirstinekrogs.dk/jagtforeningkvl/cookiepolitik-eu/"><p>Cookiepolitik</p></a>
+<a href="https://kirstinekrogs.dk/jagtforeningkvl/refundering_returvarer/"><p>Handelsbetingelser</p></a>
 </div>
 
-<div class="flower">
-<img src="https://kirstinekrogs.dk/kea/Dinplanteven/wp-content/uploads/2021/12/flowers.svg" alt="blomst">
+<div class="nyhedsbrev">
+<h4>TILMELD DIG VORES NYHEDSBREV</h4>
+<p>
+	<label>
+		<input type="email" name="EMAIL" placeholder="Indtast e-mail" required />
+</label>
+</p>
+
+<p>
+	<input type="submit" value="Tilmeld" />
+</p>
+
 </div>
 
 </div>

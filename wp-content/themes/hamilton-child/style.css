@@ -507,6 +507,36 @@ a.skip-link.button {
   text-align: left;
 }
 
+/* Footer  */
+
+.section-inner {
+  max-width: none;
+}
+
+.site-footer {
+  background-color: #fafaf7;
+  width: 100%;
+  padding: 0;
+}
+
+.site-footer a {
+  border-bottom: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.column a {
+  padding: 5px;
+  color: black;
+}
+
+.nyhedsbrev {
+  padding: 50px;
+}
+
 @media only screen and (min-width: 600px) {
   /* knap gjort */
   .page-id-356
@@ -570,43 +600,35 @@ a.skip-link.button {
     text-align: left;
   }
 
-  /* Footer  */
-
-  .section-inner {
-    max-width: none;
+  /* footer  */
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .row {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 20px;
   }
 
-  .social {
-    display: flex;
-    align-self: center;
-    width: 6em;
+  .column {
+    align-self: left;
   }
 
-  .social img {
-    padding: 10px;
-  }
-
-  .site-footer {
-    background-color: #d3cad6;
-    width: 100%;
+  .nyhedsbrev {
+    margin-right: 30px;
     padding: 0;
   }
 
-  .site-footer a {
-    border-bottom: none;
+  footer.site-footer.section-inner .column a {
+    padding: 0;
+  }
+  footer.site-footer.section-inner p {
+    margin-top: 12px;
+    font-size: 1rem;
   }
 
-  .row {
-    display: flex;
-    flex-direction: column;
-    padding-top: 2em;
-  }
-
-  .column a {
-    padding: 5px;
-  }
-
-  .flower {
-    align-self: center;
+  footer.site-footer.section-inner h4 {
+    font-size: 1.3rem;
   }
 }
