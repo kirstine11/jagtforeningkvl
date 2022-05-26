@@ -60,10 +60,6 @@ a {
   font-weight: 500;
 }
 
-.wp-block-button__link:hover {
-  background-color: #f5ba65;
-}
-
 /* streg */
 .wp-block-separator {
   position: relative;
