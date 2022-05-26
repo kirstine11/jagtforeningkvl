@@ -309,14 +309,6 @@ a.social-button.facebook-button:hover {
   width: 200px;
 }
 
-.page-id-138 .wp-container-16.wp-block-buttons {
-  width: 900px;
-}
-
-.page-id-138 .wp-container-28.wp-block-buttons {
-  width: 400px;
-}
-
 .page-id-138 .citater {
   bottom: 70px;
   padding-left: 50px;
@@ -332,7 +324,7 @@ a.social-button.facebook-button:hover {
   display: flex;
 }
 
-.page-id-138 .form button,
+.page-id-138 .nyhedsbrev .form button,
 .button,
 .faux-button,
 .wp-block-button__link,
