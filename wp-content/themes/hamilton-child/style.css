@@ -304,9 +304,17 @@ a.social-button.facebook-button:hover {
 }
 
 .page-id-138
-  .arrangementerknap
+  .tilmeldforening
   a.wp-block-button__link.has-black-color.has-text-color.has-background {
-  width: 250px;
+  width: 200px;
+}
+
+.page-id-138 .wp-container-16.wp-block-buttons {
+  width: 900px;
+}
+
+.page-id-138 .wp-container-28.wp-block-buttons {
+  width: 400px;
 }
 
 .page-id-138 .citater {
