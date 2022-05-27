@@ -256,6 +256,11 @@ a.social-button.facebook-button:hover {
 } */
 /* KONTAKTFORMULAR */
 
+.page-id-200 .wp-block-jetpack-contact-form {
+  justify-content: center;
+  text-align: center;
+}
+
 .page-id-200 .wp-block-jetpack-contact-form #g200-navn.name {
   border-radius: 9px;
   border-width: 1px;
@@ -268,6 +273,7 @@ a.social-button.facebook-button:hover {
   color: #000000;
   opacity: 40%;
   font-weight: 400;
+  text-align: left;
 }
 
 .page-id-200 .wp-block-jetpack-contact-form #g200-email.email {
@@ -282,6 +288,7 @@ a.social-button.facebook-button:hover {
   color: #000000;
   opacity: 40%;
   font-weight: 400;
+  text-align: left;
 }
 
 .page-id-200 .wp-block-jetpack-contact-form #g200-telefonnummer.telephone {
@@ -296,6 +303,7 @@ a.social-button.facebook-button:hover {
   color: #000000;
   opacity: 40%;
   font-weight: 400;
+  text-align: left;
 }
 
 /* .page-id-200 .wp-image-281 {
@@ -702,7 +710,10 @@ a.skip-link.button {
     justify-content: left;
     text-align: left;
   }
-
+  .page-id-200 .wp-block-jetpack-contact-form {
+    justify-content: left;
+    text-align: left;
+  }
   /* footer  */
   .row {
     display: grid;
