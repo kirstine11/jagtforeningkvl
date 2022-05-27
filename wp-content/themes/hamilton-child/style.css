@@ -51,6 +51,11 @@ a {
   color: white;
 }
 
+.active,
+.alt-nav li a:hover {
+  color: #fcae3f;
+}
+
 .wp-block-button__link:hover {
   color: white;
   background-color: #bfbda7;
