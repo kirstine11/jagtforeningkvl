@@ -405,7 +405,7 @@ input[type="submit"] {
 
 .page-id-138 .wp-block-column.is-vertically-aligned-top.skovenkalder {
   position: relative;
-  bottom: 150px;
+  bottom: 40px;
 }
 
 .page-id-138 .wp-block-cb-carousel .slick-next:before,
@@ -676,12 +676,20 @@ a.skip-link.button {
     padding-left: 180px;
   }
 
+  .page-id-138 .autentiskliv {
+    padding-left: 180px;
+  }
+
   .page-id-138 .bestyrelse {
     padding-left: 120px;
   }
 
   .page-id-138 .bestyrelse p {
     padding-right: 300px;
+  }
+
+  .page-id-138 .wp-container-20.wp-block-column {
+    padding: 70px;
   }
 
   .page-id-138 .wp-block-cb-carousel .slick-slide {
@@ -702,6 +710,10 @@ a.skip-link.button {
 
   .page-id-138 h1.has-white-color.has-text-color {
     font-size: 4.5rem;
+  }
+
+  .page-id-138 .wp-block-cover__inner-container {
+    margin-left: 80px;
   }
 
   .site-header .custom-logo img {
