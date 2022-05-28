@@ -510,6 +510,28 @@ a.skip-link.button {
   display: none;
 }
 
+.single-product .woocommerce a.button{
+color: black;
+background-color: #fafaf7;
+border: #fcae3f solid 1px;
+border-radius: 6vw;
+font-weight: 500;
+font-size: 1.2rem;
+}
+.single-product .woocommerce-message{
+  border-top-color: #bfbda7;
+  font-family: 'Poppins';
+  background: #fafaf7;
+}
+
+.single-product .woocommerce-message::before{
+  color: #bfbda7;
+}
+
+.single-product .related .products h2{
+  display: none;
+}
+
 /* Om os */
 
 .page-id-522 .entry-content .alignfull {
@@ -643,6 +665,8 @@ a.skip-link.button {
 .nyhedsbrev {
   padding: 50px;
 }
+
+
 
 @media only screen and (min-width: 600px) {
   /* knap gjort */
