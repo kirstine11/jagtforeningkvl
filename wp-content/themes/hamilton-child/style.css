@@ -417,6 +417,54 @@ input[type="submit"] {
   font-family: "poppins";
 }
 
+.page-id-138 .scrolldown {
+  padding-top: 70px;
+}
+
+.page-id-138 .scrolldown {
+  padding-top: 70px;
+}
+.page-id-138 .scrolldown {
+  position: absolute;
+  left: 50%;
+  margin-left: -12px;
+  -webkit-animation: scrolldowneffekt 1.5s infinite;
+  animation: scrolldowneffekt 1.5s infinite;
+  box-sizing: border-box;
+}
+
+.page-id-138 H1 {
+  text-shadow: 0px 1px 1px #000000, 0px 1px 1px rgb(0 0 0 / 15%),
+    0px 1px 1px rgb(0 0 0);
+}
+
+@-webkit-keyframes scrolldowneffekt {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+}
+@keyframes scrolldowneffekt {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+}
+
 /* SINGLE PRODUKT */
 .single-product .section-inner .thin {
   max-width: 1240px;
@@ -510,25 +558,25 @@ a.skip-link.button {
   display: none;
 }
 
-.single-product .woocommerce a.button{
-color: black;
-background-color: #fafaf7;
-border: #fcae3f solid 1px;
-border-radius: 6vw;
-font-weight: 500;
-font-size: 1.2rem;
+.single-product .woocommerce a.button {
+  color: black;
+  background-color: #fafaf7;
+  border: #fcae3f solid 1px;
+  border-radius: 6vw;
+  font-weight: 500;
+  font-size: 1.2rem;
 }
-.single-product .woocommerce-message{
+.single-product .woocommerce-message {
   border-top-color: #bfbda7;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   background: #fafaf7;
 }
 
-.single-product .woocommerce-message::before{
+.single-product .woocommerce-message::before {
   color: #bfbda7;
 }
 
-.single-product .related .products h2{
+.single-product .related .products h2 {
   display: none;
 }
 
@@ -665,8 +713,6 @@ font-size: 1.2rem;
 .nyhedsbrev {
   padding: 50px;
 }
-
-
 
 @media only screen and (min-width: 600px) {
   /* knap gjort */
