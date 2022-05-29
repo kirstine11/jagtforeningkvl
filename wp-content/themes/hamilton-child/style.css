@@ -56,11 +56,6 @@ a {
   color: #fcae3f;
 }
 
-.wp-block-button__link:hover {
-  color: white;
-  background-color: #bfbda7;
-}
-
 /* knapper */
 .wp-block-button__link {
   font-weight: 500;

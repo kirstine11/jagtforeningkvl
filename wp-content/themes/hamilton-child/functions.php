@@ -21,4 +21,8 @@ if ( !function_exists( 'chld_thm_cfg_parent_css' ) ):
 endif;
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
+add_action( 'wp_enqueue_scripts', 'add_scripts' );
+        function add_scripts() { 
+            wp_enqueue_script( 'customjs', get_stylesheet_directory_uri() . '/customjs.js', array(), true, true );
+}
 // END ENQUEUE PARENT ACTION
