@@ -435,6 +435,11 @@ input[type="submit"] {
     0px 1px 1px rgb(0 0 0);
 }
 
+.page-id-138 .kursus1 img {
+  position: relative;
+  bottom: 30px;
+}
+
 @-webkit-keyframes scrolldowneffekt {
   0% {
     -webkit-transform: translate(0, 0);
