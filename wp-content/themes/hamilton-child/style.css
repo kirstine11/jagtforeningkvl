@@ -625,6 +625,11 @@ a.skip-link.button {
 
 /* Kontakt */
 
+.page-id-1101 .entry-content .alignfull {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .page-id-1101 #site-content {
   background-color: #fafaf7;
 }
