@@ -63,6 +63,11 @@ a {
 .alt-nav li a:hover {
   color: #fcae3f;
 }
+.alt-nav .current-menu-item {
+  border-bottom: 2px solid #fcae3f;
+  color: #fcae3f;
+  padding-bottom: 15px !important;
+}
 
 .wpmenucart-icon-shopping-cart-0:before {
   font-size: 1.6rem;
