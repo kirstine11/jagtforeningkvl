@@ -42,6 +42,10 @@ section.related.products {
   font-size: 1rem;
 }
 
+.alt-nav-wrapper {
+  font-size: 1rem;
+}
+
 .alt-nav > li.menu-item-has-children:after {
   border-top-color: white;
 }
