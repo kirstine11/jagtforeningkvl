@@ -56,21 +56,9 @@ a {
   color: #fcae3f;
 }
 
-.active,
-.menu-item:hover {
-  color: blues;
-}
-
-.alt-nav a:active {
-  color: blue;
-}
-
-li.current-menu-item:active {
-  color: orange;
-}
-
-li.current-menu-item a:active {
-  color: orange;
+.wp-block-button__link:hover {
+  color: white;
+  background-color: #bfbda7;
 }
 
 /* knapper */
