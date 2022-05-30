@@ -98,11 +98,11 @@ li.wpmenucartli a.wpmenucart-contents span {
 /* fonts */
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 h3 {
@@ -231,6 +231,23 @@ a.social-button.facebook-button:hover {
 .page-id-356 .entry-content .alignfull {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.page-id-356 .wp-block-image {
+  margin-bottom: -35px;
+  margin-top: -46vw;
+}
+
+.page-id-356 .wp-container-11 {
+  gap: 0;
+}
+
+.page-id-356 .has-regular-font-size {
+  margin-top: -19vw;
+}
+
+.page-id-356 h1 {
+  padding-top: 8vw;
 }
 
 /* JAGTTEGNSKURSUS  */
@@ -760,14 +777,53 @@ a.skip-link.button {
   padding: 50px;
 }
 
+/* kurv */
+
+.page-id-10 .section-inner .thin {
+  max-width: 1240px;
+}
+
+.page-id-10 #site-content {
+  background-color: #fafaf7;
+}
+
+.page-id-10 .woocommerce a.button.alt {
+  color: black;
+  background-color: #fafaf7;
+  border: #fcae3f solid 1px;
+  background-color: #fcae3f;
+  border-radius: 12vw;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.page-id-10 .woocommerce button.button {
+  color: black;
+  background-color: #fafaf7;
+  border: #fcae3f solid 1px;
+  background-color: #fcae3f;
+  border-radius: 14vw;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.woocommerce .quantity .qty {
+  border-radius: 18vw;
+  height: 7vw;
+  width: 16vw;
+  border: 1px solid #fcae3f;
+}
+
 @media only screen and (min-width: 600px) {
-  /* knap gjort */
-  .page-id-356
-    .wp-block-buttons
-    > .wp-block-button.has-custom-width
-    .wp-block-button__link {
-    width: 45%;
+  h1 {
+    font-size: 3rem;
   }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  /* knap gjort */
 
   .single-product #pa_vaelg {
     height: 4vw;
@@ -848,6 +904,33 @@ a.skip-link.button {
     justify-content: left;
     text-align: left;
   }
+
+  /* Pramjagt */
+
+  .page-id-356 .wp-block-image {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .page-id-356 .wp-container-11 {
+    gap: 3vw;
+  }
+
+  .page-id-356 .has-regular-font-size {
+    margin-top: 0;
+  }
+
+  .page-id-356
+    .wp-block-buttons
+    > .wp-block-button.has-custom-width
+    .wp-block-button__link {
+    width: 60%;
+  }
+
+  .page-id-356 h1 {
+    padding-top: 0;
+  }
+
   /* footer  */
   .row {
     display: grid;
@@ -897,5 +980,11 @@ a.skip-link.button {
   .page-id-200 p.has-text-align-center.brodtekst {
     position: relative;
     bottom: 65px;
+  }
+
+  /* kurv  */
+  .woocommerce .quantity .qty {
+    height: 5vw;
+    width: 10vw;
   }
 }
