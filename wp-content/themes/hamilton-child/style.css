@@ -64,6 +64,14 @@ a {
   color: #fcae3f;
 }
 
+.wpmenucart-icon-shopping-cart-0:before {
+  font-size: 1.6rem;
+}
+
+li.wpmenucartli a.wpmenucart-contents span {
+  display: none !important;
+}
+
 .wp-block-button__link:hover {
   color: white;
   background-color: #bfbda7;
