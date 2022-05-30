@@ -415,6 +415,10 @@ input[type="submit"] {
   color: black;
 }
 
+.page-id-138 input[type="email"] {
+  background-color: #fafaf7;
+}
+
 .page-id-138 .wp-block-column.is-vertically-aligned-top.skovenkalder {
   position: relative;
   bottom: 40px;
