@@ -12,6 +12,10 @@ Updated: 2022-05-17 12:42:46
 */
 
 /* Overskrifter fjernet */
+section.related.products {
+  display: none;
+}
+
 .title {
   display: none;
 }
