@@ -670,6 +670,7 @@ a.skip-link.button {
 .page-id-1101 .entry-content .alignfull {
   margin-top: 0px;
   margin-bottom: 0px;
+  height: 190px;
 }
 
 .page-id-1101 #site-content {
@@ -678,6 +679,7 @@ a.skip-link.button {
 
 .page-id-1101 .wp-container-3.wp-block-column {
   margin-bottom: -100px;
+  visibility: hidden;
 }
 
 /* KONTAKTFORMULAR */
@@ -836,6 +838,7 @@ a.skip-link.button {
 
   .page-id-1101 .wp-container-3.wp-block-column {
     margin-bottom: -175px;
+    visibility: visible;
   }
   .page-id-1101 .wp-block-jetpack-contact-form {
     justify-content: left;
