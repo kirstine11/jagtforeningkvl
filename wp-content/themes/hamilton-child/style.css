@@ -59,6 +59,10 @@ a {
   color: white;
 }
 
+.site-nav ul:last-child .current-menu-item > a {
+  border-bottom-color: #fcae3f;
+}
+
 .active,
 .alt-nav li a:hover {
   color: #fcae3f;
@@ -184,7 +188,7 @@ a.social-button.facebook-button:hover {
 }
 
 .page-id-17 .wp-container-13 {
-  margin-bottom: -10vw;
+  margin-bottom: -6vw;
 }
 
 .page-id-17 .wp-container-19 {
@@ -258,11 +262,19 @@ a.social-button.facebook-button:hover {
   margin-bottom: 0px;
 }
 
+.page-id-916 H1 {
+  padding-top: 8vw;
+}
+
 /* SKYDEKURSUS */
 
 .page-id-926 .entry-content .alignfull {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.page-id-926 H1 {
+  padding-top: 8vw;
 }
 
 /* .page-id-356 .wp-block-separator {
@@ -299,13 +311,14 @@ a.social-button.facebook-button:hover {
   bottom: 33px;
 }
 
-.page-id-200 .wp-container-8.wp-block-column {
+/* .page-id-200 .wp-container-8.wp-block-column {
   margin: -25px;
-}
+} */
 
 /* .page-id-200 .wp-block-columns.alignwide {
   padding: 80px;
 } */
+
 /* KONTAKTFORMULAR */
 
 .page-id-200 .wp-block-jetpack-contact-form {
@@ -323,7 +336,6 @@ a.social-button.facebook-button:hover {
 
 .page-id-200 .wp-block-jetpack-contact-form .grunion-field-label.name {
   color: #000000;
-  opacity: 40%;
   font-weight: 400;
   text-align: left;
 }
@@ -338,7 +350,6 @@ a.social-button.facebook-button:hover {
 
 .page-id-200 .wp-block-jetpack-contact-form .grunion-field-label.email {
   color: #000000;
-  opacity: 40%;
   font-weight: 400;
   text-align: left;
 }
@@ -353,7 +364,6 @@ a.social-button.facebook-button:hover {
 
 .page-id-200 .wp-block-jetpack-contact-form .grunion-field-label.telephone {
   color: #000000;
-  opacity: 40%;
   font-weight: 400;
   text-align: left;
 }
@@ -370,7 +380,7 @@ a.social-button.facebook-button:hover {
 }
 
 .page-id-138 h1.has-white-color.has-text-color {
-  font-size: 3rem;
+  font-size: 2.2rem;
 }
 
 .page-id-138 .entry-content .alignfull {
@@ -381,8 +391,9 @@ a.social-button.facebook-button:hover {
 .page-id-138 .kursus .wp-block-column {
   padding: 0;
 }
-.page-id-138 .wp-block-column.is-vertically-aligned-center.has-background {
-  height: 580px;
+
+.page-id-138 .entry-content h3 {
+  margin-top: -22px;
 }
 
 .page-id-138 .kursusknap {
@@ -715,7 +726,6 @@ a.skip-link.button {
 
 .page-id-1101 .grunion-field-label.name {
   color: #000000;
-  opacity: 40%;
   font-weight: 400;
   text-align: left;
 }
@@ -729,7 +739,6 @@ a.skip-link.button {
 
 .page-id-1101 .grunion-field-label.email {
   color: #000000;
-  opacity: 40%;
   font-weight: 400;
   text-align: left;
 }
@@ -743,7 +752,6 @@ a.skip-link.button {
 
 .page-id-1101 .grunion-field-label.textarea {
   color: #000000;
-  opacity: 40%;
   font-weight: 400;
   text-align: left;
 }
@@ -786,6 +794,7 @@ a.skip-link.button {
 
 .page-id-10 #site-content {
   background-color: #fafaf7;
+  padding-top: 3vw;
 }
 
 .page-id-10 .woocommerce a.button.alt {
@@ -813,6 +822,17 @@ a.skip-link.button {
   height: 7vw;
   width: 16vw;
   border: 1px solid #fcae3f;
+}
+
+.page-id-356
+  .wp-block-buttons
+  > .wp-block-button.has-custom-width
+  .wp-block-button__link {
+  width: 132%;
+}
+
+.product-name a {
+  color: black;
 }
 
 @media only screen and (min-width: 600px) {
@@ -984,7 +1004,7 @@ a.skip-link.button {
 
   /* kurv  */
   .woocommerce .quantity .qty {
-    height: 5vw;
-    width: 10vw;
+    height: 3vw;
+    width: 6vw;
   }
 }
