@@ -118,6 +118,7 @@ p {
 }
 
 /* SoMe triggers */
+
 .Share {
   position: fixed;
   bottom: 250px;
@@ -932,11 +933,10 @@ a.skip-link.button {
   }
 
   /* footer  */
+
   .row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  .row {
     padding-top: 10px;
     padding-bottom: 40px;
     padding-right: 20px;
