@@ -66,7 +66,7 @@ a {
 .alt-nav .current-menu-item {
   border-bottom: 2px solid #fcae3f;
   color: #fcae3f;
-  padding-bottom: 15px !important;
+  padding-bottom: 15px;
 }
 
 .wpmenucart-icon-shopping-cart-0:before {
