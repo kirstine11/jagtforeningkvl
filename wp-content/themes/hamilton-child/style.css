@@ -255,6 +255,57 @@ a.social-button.facebook-button:hover {
   padding-top: 8vw;
 }
 
+.page-id-356 .wp-block-jetpack-contact-form {
+  justify-content: center;
+  text-align: center;
+}
+
+.page-id-356 .wp-block-jetpack-contact-form #g356-name.name {
+  border-radius: 9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #707070;
+  background-color: white;
+}
+
+.page-id-356 .wp-block-jetpack-contact-form .grunion-field-label.name {
+  color: #000000;
+  font-weight: 400;
+  text-align: left;
+}
+
+.page-id-356 .wp-block-jetpack-contact-form #g356-email.email {
+  border-radius: 9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #707070;
+  background-color: white;
+}
+
+.page-id-356 .wp-block-jetpack-contact-form .grunion-field-label.email {
+  color: #000000;
+  font-weight: 400;
+  text-align: left;
+}
+
+.page-id-356 .wp-block-jetpack-contact-form #g356-telefonnummer.telephone {
+  border-radius: 9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #707070;
+  background-color: white;
+}
+
+.page-id-356 .wp-block-jetpack-contact-form .grunion-field-label.telephone {
+  color: #000000;
+  font-weight: 400;
+  text-align: left;
+}
+
+.page-id-356 label.grunion-field-label.consent.consent-implicit {
+  display: none;
+}
+
 /* JAGTTEGNSKURSUS  */
 
 .page-id-916 .entry-content .alignfull {
@@ -276,15 +327,6 @@ a.social-button.facebook-button:hover {
 .page-id-926 H1 {
   padding-top: 8vw;
 }
-
-/* .page-id-356 .wp-block-separator {
-  width: 30vw;
-} */
-
-/* .page-id-356 .entry-content .alignfull {
-  margin-top: 0px;
-  margin-bottom: 0px;
-} */
 
 /* ARRANGEMENTER */
 
