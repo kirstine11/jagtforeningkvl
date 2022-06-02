@@ -641,7 +641,7 @@ tbody > tr:nth-child(odd) {
   display: none;
 }
 
-a.skip-link.button {
+.single-product h1 a.skip-link.button {
   display: none;
 }
 
@@ -688,6 +688,10 @@ a.skip-link.button {
 
 .single-product .related .products h2 {
   display: none;
+}
+
+.woocommerce div.product div.images {
+  width: 100%;
 }
 
 /* Om os */
@@ -1048,5 +1052,9 @@ a.skip-link.button {
   .woocommerce .quantity .qty {
     height: 3vw;
     width: 6vw;
+  }
+
+  .woocommerce div.product div.images {
+    width: 40%;
   }
 }
