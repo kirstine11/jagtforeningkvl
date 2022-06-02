@@ -641,7 +641,7 @@ tbody > tr:nth-child(odd) {
   display: none;
 }
 
-.single-product h1 a.skip-link.button {
+a.skip-link.button {
   display: none;
 }
 
