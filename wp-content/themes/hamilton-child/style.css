@@ -353,6 +353,10 @@ a.social-button.facebook-button:hover {
   bottom: 33px;
 }
 
+.page-id-200 .tilmeldsommerfest {
+  text-align: center;
+}
+
 /* .page-id-200 .wp-container-8.wp-block-column {
   margin: -25px;
 } */
@@ -1056,5 +1060,9 @@ a.skip-link.button {
 
   .woocommerce div.product div.images {
     width: 40%;
+  }
+
+  .page-id-200 .tilmeldsommerfest {
+    text-align: left;
   }
 }
